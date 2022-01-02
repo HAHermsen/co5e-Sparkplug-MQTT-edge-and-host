@@ -1,4 +1,5 @@
 All relevant info about this project can be found on: https://forge.codesys.com/lib/cobolt/
+
 This is a binaries mirror of: https://forge.codesys.com/git/lib,cobolt,binaries.git/
 
 Designed by the co-author of MQTT, Arlen Nipper, Sparkplug™ is designed to fit "on top" of regular MQTT. In 1999, when MQTT was invented, it was originally meant for SCADA systems and left out all specifications on how topics and payloads should be structured and how devices should behave. This allowed regular MQTT to be used in different industries, but lacked any standard topic or dataformat.
