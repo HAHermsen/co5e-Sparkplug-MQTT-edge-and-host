@@ -2,11 +2,12 @@ All relevant info about this project can be found on: https://forge.codesys.com/
 
 This is a binaries mirror of: https://forge.codesys.com/git/lib,cobolt,binaries.git/
 
+## Introduction
 Designed by the co-author of MQTT, Arlen Nipper, Sparkplug™ is designed to fit "on top" of regular MQTT. In 1999, when MQTT was invented, it was originally meant for SCADA systems and left out all specifications on how topics and payloads should be structured and how devices should behave. This allowed regular MQTT to be used in different industries, but lacked any standard topic or dataformat.
 
 Sparkplug™ now fills this gap and provides a vendor-neutral specification for the data formats, topic structures, state management, and how topologies should be structured in IIoT scenarios. This way, Sparkplug™ adds several smart features on top of regular MQTT, resulting in a "Sparkplug™ enhanced MQTT". A flexible architecture which allows you to auto-discover edge nodes, devices and their metrics (data & metadata) as devices and applications can be added and removed anytime without affecting the system as a whole. Report by Exception (RBE) saves bandwidth, memory and computational power on the producer and the consumers of data. Last but not least, your data can be delivered securely via the latest industry strength security specifications and with rich meta-data for added context. 
 
-BY DOWNLOADING AND USAGE OF THESE LIBRARIES YOU ABIDE BY THE MIT LICENSE
+## BY DOWNLOADING AND USAGE OF THESE LIBRARIES YOU ABIDE BY THE MIT LICENSE
 
 This roadmap is subjected to change without prior notice. No liabilities shall be taken! Completed milestones are clearly marked below;
 v2.0.0.0 Standard version: Full-spec stable Edge, Device and a proof of concept Host implementation for CODESYS based industrial controllers
