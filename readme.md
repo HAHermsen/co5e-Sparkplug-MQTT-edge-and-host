@@ -1,4 +1,5 @@
-All relevant info about this project can be found on: https://forge.codesys.com/lib/cobolt/
+Questions? -> All relevant info about this project can be found on: https://forge.codesys.com/lib/cobolt/
+Still more questions? just drop us a line via github or forge
 
 This is a binaries mirror of: https://forge.codesys.com/git/lib,cobolt,binaries.git/
 
@@ -23,21 +24,16 @@ v2.0.0.0 Standard version: Full-spec stable Edge, Device and a proof of concept 
         co⚡e: Sparkplug™ MQTT Host - Contains Primary Host solution,
         co🔗e: A Linked List Solution.
     Support for Metric Properties,
-        Read Only Property (Mandatory Included),
+        Read Only Property (Mandatory property Included),
         Any User Defined Property,
-        Ignition verified,
+            Ignition verified,
     Support for Aliases,
         Edge / Device send server xBIRTH & xDATA via Alias
         Edge / Device receive server xCMD via Alias
-        Ignition verified
-    Template i.e. Edge / Device complex variables (nested structs) support,
-        Edge / Device send server xBIRTH Template support,
-        Edge / Device send server xDATA Template support,
-        Edge / Device receive server xCMD Template support,
-        Ignition verified
-    WebSockets support,
+            Ignition verified
+    WebSockets support (EXPERIMENTAL)
         HTTP ( ws://...:8080 ) verified,
-        HTTPS through TLS Support ( wss://...:8083 ) Experimental,
+        HTTPS through TLS Support ( wss://...:8083 ),
         Proxy Settings (Server Address, Port, Username, Password)
     Edge Publishes Properties like
         ABOUT (mandatory),
@@ -46,15 +42,23 @@ v2.0.0.0 Standard version: Full-spec stable Edge, Device and a proof of concept 
         NIC (Up to 8 supported) name, MAC & IP addresses,
         OS version, etc,
         Extended Info Opt-Out,
-        Ignition verified
-    CODESYS based Primary Host Node implementation,
+            Ignition verified
+            
+    CODESYS based Primary Host Node implementation (EXPERIMENTAL),
         Server receive Edge / Device xBIRTH,
         Server receive Edge / Device xDATA,
         Server receive Edge / Device xCMD,
         Server receive Edge / Device xDEATH & LWT -> Data becomes STALE
         Server send Edge / device xCMD (DATA)
-        Strict enforcement of SEQ / BDSEQ check,
-        Server sends Edge REBIRTH to Edge or Device,
-        WebSocket support,
-        Metric property support,
-        Alias Support.
+        (if something isn't mentioned, it isn't supported)
+
+
+Okay that is a lot! But what is NOT ready yet?
+
+    Template i.e. Edge / Device complex variables (nested structs) support,
+        Edge / Device send server xBIRTH Template support,
+        Edge / Device send server xDATA Template support,
+        Edge / Device receive server xCMD Template support
+        
+Questions? -> All relevant info about this project can be found on: https://forge.codesys.com/lib/cobolt/
+Still more questions? just drop us a line via github or forge
